@@ -7,7 +7,7 @@ spawn telnet 192.168.0.102
 
 ## loging
 expect "AMP12 login:"
-end -- "root\r"
+send -- "root\r"
 expect "Enter 'help' for a list of built-in commands."
 
 ## find lost disk
